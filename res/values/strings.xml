@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="post">
+        <item> Enter Your Post </item>
+        <item> Volunteer </item>
+        <item> Assistant Co-ordinator </item>
+    </string-array>
+    <string-array name="event">
+        <item> Enter the event </item>
+        <item> Literary </item>
+        <item> Cultural </item>
+        <item> Informal </item>
+        <item> Technical </item>
+    </string-array>
+    <string-array name="itemsHamburger">
+        <item>Home</item>
+        <item>Events</item>
+        <item>Team</item>
+        <item>Workshop</item>
+        <item>AboutUs</item>
+        <item>Sponsors</item>
+        <item>Developers</item>
+    </string-array>
+
+    <string-array name="branch">
+        <item> Enter your branch </item>
+        <item>CSE</item>
+        <item>EC</item>
+        <item>CHEM</item>
+        <item>EI</item>
+        <item>IT</item>
+        <item>CIVIL</item>
+        <item>ELECTRICAL</item>
+        <item>MTECH</item>
+        <item>MBA</item>
+        <item>MCA</item>
+    </string-array>
+    <string-array name="year">
+        <item> Enter year </item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+    </string-array>
+    <string name="title_activity_hamburger">hamburger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

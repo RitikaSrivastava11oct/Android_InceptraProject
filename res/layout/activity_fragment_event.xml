@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/images"
+
+    tools:context="app.com.example.android.firebase.Fragment_event">
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:id="@+id/toolbar_events">-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/recycler_view">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/linear_lay_1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:padding="13dp"
+                android:text="LITERARY"
+                android:textSize="20dp"
+                android:layout_margin="15dp"
+                android:id="@+id/but_literary"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:text="TECHNICAL"
+                android:padding="13dp"
+                android:textSize="20dp"
+                android:layout_margin="15dp"
+                android:id="@+id/but_technical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/linear_lay_2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:text="CULTURAL"
+                android:padding="13dp"
+                android:textSize="20dp"
+                android:layout_margin="15dp"
+                android:id="@+id/but_cultural"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:text="INFORMAL"
+                android:textSize="20dp"
+                android:padding="13dp"
+                android:layout_margin="15dp"
+                android:id="@+id/but_informal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

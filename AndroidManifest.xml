@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.com.example.android.firebase">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignIn">
+            <intent-filter>
+                <action android:name="com.signin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hamburger"
+            android:label="@string/title_activity_hamburger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment_home" />
+        <activity android:name=".Fragment_aboutUs" />
+        <activity android:name=".Fragment_developer" />
+        <activity android:name=".Fragment_event" />
+        <activity android:name=".Fragment_sponsors" />
+        <activity android:name=".Fragment_team" />
+        <activity android:name=".Fragment_workshop" />
+        <activity android:name=".Literaryevent" />
+        <activity android:name=".Wordament" />
+        <activity android:name=".Scanf" />
+        <activity android:name=".Avquiz" />
+        <activity android:name=".GroupDiscussion" />
+        <activity android:name=".TinselTown" />
+        <activity android:name=".SoapCarving" />
+        <activity android:name=".PaperDress" />
+        <activity android:name=".MehndiTatto" />
+        <activity android:name=".Kritsvilla" />
+        <activity android:name=".Tambola" />
+        <activity android:name=".Rampage" />
+        <activity android:name=".Dedication" />
+        <activity android:name=".FunGames" />
+        <activity android:name=".ScavengerHunt" />
+        <activity android:name=".Coding" />
+        <activity android:name=".TechQuiz" />
+        <activity android:name=".Brainathon" />
+        <activity android:name=".Aptitude" />
+        <activity android:name=".LanGaming" />
+        <activity android:name=".TechnicalEvent" />
+        <activity android:name=".CulturalEvent" />
+        <activity android:name=".InformalEvent" />
+        <activity android:name=".Fragment_register"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/images"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.com.example.android.firebase.Splash_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_splash_2"
+        android:text="INCEPTRA"
+        android:textSize="60dp"
+        android:textColor="#F2B400"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_splash_1"
+        android:text="Kriti Society presents.."
+        android:textSize="20dp"
+        android:layout_above="@+id/text_splash_2"
+        android:textColor="#F2B400"/>
+
+</RelativeLayout>
